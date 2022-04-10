@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\main.cpp(15,12): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+  main.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+  C++CallCSTestLib.vcxproj -> C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\C++CallCSTestLib.exe

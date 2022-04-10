@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "动态加载dll", "动态加载dll\动态加载dll.vcxproj", "{3181F11B-6AAF-4972-A36E-778B0A326CEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll文件1", "dll文件1\dll文件1.vcxproj", "{ADEB3FAF-91EF-4AB3-8F52-DFF0FE41C4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3181F11B-6AAF-4972-A36E-778B0A326CEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3181F11B-6AAF-4972-A36E-778B0A326CEB}.Debug|Win32.Build.0 = Debug|Win32
+		{3181F11B-6AAF-4972-A36E-778B0A326CEB}.Release|Win32.ActiveCfg = Release|Win32
+		{3181F11B-6AAF-4972-A36E-778B0A326CEB}.Release|Win32.Build.0 = Release|Win32
+		{ADEB3FAF-91EF-4AB3-8F52-DFF0FE41C4A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADEB3FAF-91EF-4AB3-8F52-DFF0FE41C4A3}.Debug|Win32.Build.0 = Debug|Win32
+		{ADEB3FAF-91EF-4AB3-8F52-DFF0FE41C4A3}.Release|Win32.ActiveCfg = Release|Win32
+		{ADEB3FAF-91EF-4AB3-8F52-DFF0FE41C4A3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

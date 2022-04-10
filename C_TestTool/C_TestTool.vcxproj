@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arp-scan\arp-scan.c" />
+    <ClCompile Include="arp-scan\getopt.c" />
+    <ClCompile Include="Cgame\2048\1_tiny_22lines.c" />
+    <ClCompile Include="Cgame\2048\2_color_24lines.c" />
+    <ClCompile Include="Cgame\2048\old_tiny_28lines.c" />
+    <ClCompile Include="Cgame\Five-in-a-row\1_tiny_19lines.c" />
+    <ClCompile Include="Cgame\Five-in-a-row\2_AI_30lines.c" />
+    <ClCompile Include="Cgame\Five-in-a-row\2_AI_color_34lines.c" />
+    <ClCompile Include="Cgame\Five-in-a-row\2_AI_test_34lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\1_tiny_14lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\2_chaos_5lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\3_color_17lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\4_screen.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\5_std_52lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\old_add_67lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\old_chaos_6lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\old_std_47lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\old_tiny_15lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\old_tiny_18lines.c" />
+    <ClCompile Include="Cgame\GluttonousSnake\old_tiny_25lines.c" />
+    <ClCompile Include="Cgame\Maze\1_tiny_21lines.c" />
+    <ClCompile Include="Cgame\Maze\1_tiny_26lines.c" />
+    <ClCompile Include="Cgame\MineSweeper\1_tiny_24lines.c" />
+    <ClCompile Include="Cgame\MineSweeper\2_mouse_236lines.c" />
+    <ClCompile Include="Cgame\MineSweeper\3_linux_31lines.c" />
+    <ClCompile Include="Cgame\MineSweeper\4_color_27lines.c" />
+    <ClCompile Include="Cgame\MineSweeper\old_tiny_29lines.c" />
+    <ClCompile Include="Cgame\Tetris\1_tiny_22lines.c" />
+    <ClCompile Include="Cgame\Tetris\2_chaos_9lines.c" />
+    <ClCompile Include="Cgame\Tetris\3_color_25lines.c" />
+    <ClCompile Include="Cgame\Tetris\old_chaos_11lines.c" />
+    <ClCompile Include="Cgame\Tetris\old_comment.c" />
+    <ClCompile Include="Cgame\Tetris\old_tiny_30lines.c" />
+    <ClCompile Include="Cgame\Tetris\old_tiny_33lines.c" />
+    <ClCompile Include="Cgame\Tetris\old_tiny_38lines.c" />
+    <ClCompile Include="Cgame\Tetris\old_tiny_48lines.c" />
+    <ClCompile Include="Cgame\WindowGame\window-2048.c" />
+    <ClCompile Include="Cgame\WindowGame\window-Snake.c" />
+    <ClCompile Include="Cgame\WindowGame\window-Tetris.c" />
+    <ClCompile Include="练习小程序\elsfk.c" />
+    <ClCompile Include="练习小程序\天气信息管理系统.c" />
+    <ClCompile Include="练习小程序\学生成绩管理系统.c" />
+    <ClCompile Include="练习小程序\火车售票系统源码.c" />
+    <ClCompile Include="练习小程序\职工信息管理源码.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arp-scan\getopt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arp-scan\README.md" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f63c5fd1-5baf-4a9f-8008-6c4818ba6cd2}</ProjectGuid>
+    <RootNamespace>CTestTool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

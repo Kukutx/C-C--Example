@@ -1,0 +1,3 @@
+C:\Users\liuzh\Downloads\Call_qtdll\x64\Release\Call_qtdll.exe
+D:\Project\C-C++\QT\Qt_ExternalExtension\Call_qtdll\x64\Release\Call_qtdll.exe
+C:\Users\liuzh\Downloads\C++插件框架\Call_qtdll\x64\Release\Call_qtdll.exe

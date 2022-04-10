@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6da15e7f-7f14-49ee-8510-3020a87c4d19": {
+      "ProjectGuid": "6da15e7f-7f14-49ee-8510-3020a87c4d19",
+      "DisplayName": "CSharpTestDll",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+﻿  dllmain.cpp
+D:\Project\C-C++\杂乱\Dll\Dll2\dllmain.cpp(4,5): warning C4273: “add”: dll 链接不一致
+D:\Project\C-C++\杂乱\Dll\Dll2\dllmain.h(15,19): message : 参见“add”的前一个定义
+D:\Project\C-C++\杂乱\Dll\Dll2\dllmain.cpp(8,5): warning C4273: “sub”: dll 链接不一致
+D:\Project\C-C++\杂乱\Dll\Dll2\dllmain.h(16,19): message : 参见“sub”的前一个定义
+    正在创建库 D:\Project\C-C++\杂乱\Dll\Dll2\x64\Release\Dll2.lib 和对象 D:\Project\C-C++\杂乱\Dll\Dll2\x64\Release\Dll2.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Dll2.vcxproj -> D:\Project\C-C++\杂乱\Dll\Dll2\x64\Release\Dll2.dll

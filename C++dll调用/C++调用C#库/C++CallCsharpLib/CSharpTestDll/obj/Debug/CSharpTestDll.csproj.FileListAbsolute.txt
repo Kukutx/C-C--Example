@@ -1,0 +1,6 @@
+C:\Users\liuzh\Downloads\CSharpTestDll\bin\Debug\CSharpTestDll.dll
+C:\Users\liuzh\Downloads\CSharpTestDll\bin\Debug\CSharpTestDll.pdb
+C:\Users\liuzh\Downloads\CSharpTestDll\obj\Debug\CSharpTestDll.csproj.AssemblyReference.cache
+C:\Users\liuzh\Downloads\CSharpTestDll\obj\Debug\CSharpTestDll.csproj.CoreCompileInputs.cache
+C:\Users\liuzh\Downloads\CSharpTestDll\obj\Debug\CSharpTestDll.dll
+C:\Users\liuzh\Downloads\CSharpTestDll\obj\Debug\CSharpTestDll.pdb

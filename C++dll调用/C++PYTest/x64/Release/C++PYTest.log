@@ -1,0 +1,8 @@
+﻿  C++PYTest.cpp
+  正在生成代码
+D:\Project\C-C++\WindowsProject\C++插件框架或调用方式\C++PYTest\C++PYTest.cpp(25): warning C4715: “callpytest”: 不是所有的控件路径都返回值
+  2 of 12 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  C++PYTest.vcxproj -> D:\Project\C-C++\WindowsProject\C++插件框架或调用方式\C++PYTest\x64\Release\C++PYTest.exe

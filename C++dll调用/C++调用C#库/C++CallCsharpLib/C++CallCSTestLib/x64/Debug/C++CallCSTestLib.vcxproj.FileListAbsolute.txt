@@ -1,0 +1,6 @@
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\C++CallCSTestLib.vcxproj.AssemblyReference.cache
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\C++CallCSTestLib.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\C++CallCSTestLib.vcxproj.CopyComplete
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\C++CallCSTestLib.exe
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\CSharpTestDll.dll
+C:\Users\liuzh\Downloads\C++CallCsharpLib\C++CallCSTestLib\x64\Debug\CSharpTestDll.pdb

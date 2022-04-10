@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e4c8b84d-855b-448d-90f1-2d12bc29acab": {
+      "ProjectGuid": "e4c8b84d-855b-448d-90f1-2d12bc29acab",
+      "DisplayName": "C++CallCSTestLib",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

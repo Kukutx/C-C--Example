@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "远线程注入dll", "远线程注入dll\远线程注入dll.vcxproj", "{399EB0F8-A5EA-4CED-BEB7-984DD6E520B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "我的dll文件", "我的dll文件\我的dll文件.vcxproj", "{F377A452-2D3D-453F-830A-1D43CF09A42E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399EB0F8-A5EA-4CED-BEB7-984DD6E520B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{399EB0F8-A5EA-4CED-BEB7-984DD6E520B2}.Debug|Win32.Build.0 = Debug|Win32
+		{399EB0F8-A5EA-4CED-BEB7-984DD6E520B2}.Release|Win32.ActiveCfg = Release|Win32
+		{399EB0F8-A5EA-4CED-BEB7-984DD6E520B2}.Release|Win32.Build.0 = Release|Win32
+		{F377A452-2D3D-453F-830A-1D43CF09A42E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F377A452-2D3D-453F-830A-1D43CF09A42E}.Debug|Win32.Build.0 = Debug|Win32
+		{F377A452-2D3D-453F-830A-1D43CF09A42E}.Release|Win32.ActiveCfg = Release|Win32
+		{F377A452-2D3D-453F-830A-1D43CF09A42E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

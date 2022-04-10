@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.props" Condition="Exists('packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8c8994da-80db-4392-8c54-07bb5e407ea0}</ProjectGuid>
+    <RootNamespace>CppTestTool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C++ ShellCode免杀.cpp" />
+    <ClCompile Include="C++ 代码解析（词法分析、语法分析）.cpp" />
+    <ClCompile Include="C++ 实现录音和播放.cpp" />
+    <ClCompile Include="C++ 简单的文件加密和解密.cpp" />
+    <ClCompile Include="C++ 获取linux和windows系统的用户名.cpp" />
+    <ClCompile Include="c++ 遍历获取所有进程名及PID.cpp" />
+    <ClCompile Include="C++Hook键盘记录器.cpp" />
+    <ClCompile Include="c++加载驱动文件.cpp" />
+    <ClCompile Include="C++实现usb插入操作监控.cpp" />
+    <ClCompile Include="C++实现最简单的爬虫.cpp" />
+    <ClCompile Include="C++操作Windows防火墙添加例外程序.cpp" />
+    <ClCompile Include="C++操作命令行输入输出信息.cpp" />
+    <ClCompile Include="C++文件加密.cpp" />
+    <ClCompile Include="C++简单实现程序自动更新.cpp" />
+    <ClCompile Include="C++编写爬虫脚本爬取网站图片.cpp" />
+    <ClCompile Include="C++获取本机ip及其它信息.cpp" />
+    <ClCompile Include="C++解析文件路径获取文件名和扩展名.cpp" />
+    <ClCompile Include="c++驱动【加载，启动，停止，卸载】.cpp" />
+    <ClCompile Include="GetWifiPassword.cpp" />
+    <ClCompile Include="QQ群发器.cpp" />
+    <ClCompile Include="ThreadDDOS.cpp" />
+    <ClCompile Include="Windows注册表编程.cpp" />
+    <ClCompile Include="Windows编程捕获特定窗口及键盘鼠标消息模拟-1.cpp" />
+    <ClCompile Include="Windows编程捕获特定窗口及键盘鼠标消息模拟-2.cpp" />
+    <ClCompile Include="使用c++操作qq界面demo.cpp" />
+    <ClCompile Include="C++中的类型识别.cpp" />
+    <ClCompile Include="C++ 获取本机登陆过的QQ号码.cpp" />
+    <ClCompile Include="C++创建快捷方式以及操作.cpp" />
+    <ClCompile Include="俄罗斯方块.cpp" />
+    <ClCompile Include="别踩白块.cpp" />
+    <ClCompile Include="学生管理系统.cpp" />
+    <ClCompile Include="实现程序自删除.cpp" />
+    <ClCompile Include="数字雨.cpp" />
+    <ClCompile Include="文件移动.cpp" />
+    <ClCompile Include="C++获取windows桌面图标的位置信息.cpp" />
+    <ClCompile Include="程序运行时间1.cpp" />
+    <ClCompile Include="程序运行时间2.cpp" />
+    <ClCompile Include="测试函数运行时间.cpp" />
+    <ClCompile Include="自制编译器-c++实现词法分析器.cpp" />
+    <ClCompile Include="获取系统中所有进程and线程信息.cpp" />
+    <ClCompile Include="语法分析器C++代码实现.cpp" />
+    <ClCompile Include="贪吃蛇.cpp" />
+    <ClCompile Include="遍历Windows摄像头设备.cpp" />
+    <ClCompile Include="防止程序多开.cpp" />
+    <ClCompile Include="雪花.cpp" />
+    <ClCompile Include="鼠标连点器.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.targets" Condition="Exists('packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.props'))" />
+    <Error Condition="!Exists('packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\vcpkg.B.Developers.vcpkg.1.0.0\build\native\vcpkg.B.Developers.vcpkg.targets'))" />
+  </Target>
+</Project>
